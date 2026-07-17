@@ -1,4 +1,4 @@
-# Write-up: Trader Behavior vs. Market Sentiment
+<img width="596" height="482" alt="image" src="https://github.com/user-attachments/assets/ecaa45de-9805-4531-90ac-1a20da6b4c52" /># Write-up: Trader Behavior vs. Market Sentiment
 
 ## Methodology
 
@@ -47,8 +47,8 @@ trade far more often in Extreme Fear (~120 trades/day) than in Extreme Greed
 roughly balanced during Greed — consistent with contrarian/dip-buying
 behavior that happened to pay off in this sample.
 
-![Insight 1a](outputs/figures/insight1_pnl_by_sentiment.png)
-![Insight 1b](outputs/figures/insight1_winrate_by_sentiment.png)
+![Insight 1a](https://github.com/kumarkislay245-spec/work-/blob/main/Screenshot%202026-07-17%20095319.png)
+![Insight 1b](https://github.com/kumarkislay245-spec/work-/blob/main/Screenshot%202026-07-17%20095348.png)
 
 ### Insight 2 — Frequent traders outperform on every axis
 | Segment | Avg Daily PnL | Avg Win Rate | Avg # Trades/day | Avg Trade Size |
@@ -62,7 +62,7 @@ placing smaller average trades. This looks like a skill/consistency signal
 rather than "more trades = more luck": frequent traders are also more
 accurate per trade.
 
-![Insight 2](outputs/figures/insight2_frequency_segment.png)
+![Insight 2](https://github.com/kumarkislay245-spec/work-/blob/main/Screenshot%202026-07-17%20095422.png)
 
 ### Insight 3 — "Consistent Winners" trade bigger and more often
 | Segment | Avg Daily PnL | Avg Win Rate | Avg # Trades/day | Avg Trade Size |
@@ -74,7 +74,7 @@ Traders who beat the median on *both* PnL and win rate (only 3 of 13
 accounts in this sample) are defined by a combination of high trade
 frequency **and** larger position sizes, not just one or the other.
 
-![Insight 3](outputs/figures/insight3_performance_segment.png)
+![Insight 3](https://github.com/kumarkislay245-spec/work-/blob/main/Screenshot%202026-07-17%20095442.png)
 
 ### Predictive model — next-day profitability
 
@@ -90,8 +90,8 @@ but the majority of next-day outcome variance is not explained by these
 features alone. Feature importance and the confusion matrix/ROC curve are
 in `outputs/figures/`.
 
-![Confusion Matrix (tuned)](outputs/figures/model_confusion_matrix_tuned.png)
-![ROC Curve (tuned)](outputs/figures/model_roc_curve_tuned.png)
+![Confusion Matrix (tuned)](https://github.com/kumarkislay245-spec/work-/blob/main/Screenshot%202026-07-17%20095143.png)
+![ROC Curve (tuned)](https://github.com/kumarkislay245-spec/work-/blob/main/Screenshot%202026-07-17%20095018.png)
 
 ## Strategy recommendations
 
