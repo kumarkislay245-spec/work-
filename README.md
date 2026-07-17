@@ -1,4 +1,4 @@
-<img width="596" height="482" alt="image" src="https://github.com/user-attachments/assets/ecaa45de-9805-4531-90ac-1a20da6b4c52" /># Write-up: Trader Behavior vs. Market Sentiment
+ Write-up: Trader Behavior vs. Market Sentiment
 
 ## Methodology
 
